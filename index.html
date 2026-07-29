@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航/通栏图片 -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyBlog</div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">首页</a>
+                <a href="#about" class="nav-link">关于我</a>
+                <a href="#articles" class="nav-link">文章</a>
+                <a href="#contact" class="nav-link">联系</a>
+            </nav>
+            <div class="nav-actions">
+                <select id="contact-method" class="contact-select">
+                    <option value="">联系我</option>
+                    <option value="qq">QQ</option>
+                    <option value="email">邮箱</option>
+                </select>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner图 -->
+    <section class="banner" id="home">
+        <div class="banner-overlay">
+            <h1 class="banner-title">欢迎来到我的个人空间</h1>
+            <p class="banner-subtitle">记录生活 · 分享感悟 · 探索世界</p>
+            <a href="#articles" class="banner-btn">阅读文章</a>
+        </div>
+    </section>
+    <!-- 关于我 -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-card">
+                <div class="about-avatar">
+                    <span class="avatar-icon">👤</span>
+                </div>
+                <div class="about-info">
+                    <h2 class="section-title">关于我</h2>
+                    <p class="about-name">一位电商行业的糟老头，热爱生活与技术的前端开发者</p>
+                    <p class="about-desc">
+                        喜欢用代码创造有趣的东西，喜欢用文字记录生活的点滴。
+                        在这里，我分享我的文章、作品和思考。欢迎留言交流！
+                    </p>
+                    <div class="about-tags">
+                        <span class="tag">前端开发</span>
+                        <span class="tag">摄影</span>
+                        <span class="tag">阅读</span>
+                        <span class="tag">旅行</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 文章文字区 -->
+    <section class="article-section" id="articles">
+        <div class="container">
+            <div class="article-text">
+                <h2 class="section-title">抖店平台，你的买家辱骂诅咒商家全家死光你是怎样处罚它的？</h2>
+                <p class="article-meta">
+                    <span class="tag">生活</span>
+                    <span class="tag">2026-07-27</span>
+                    <span class="tag">阅读 5 分钟</span>
+                </p>
+                <p class="article-content">
+                    5月21日，一河北买家在本店买了一套护肤品，23日收到货，25日申请退货退款，理由是"使用后过敏"。在没有二级以上医院的就诊凭证和正式发票，只是上传了两张脸部照片的情况下，抖店平台并没有对凭证做任何审核，也不需要卖家点击同意或不同意退货。退货到达后，因为商品已被破坏，根据《互联网购物七天无理由退货暂行办法》，食品、药品、护肤品等特殊类目商品，如无质量问题拆封不支持退货，本店正常拒收并给买家返回。买家了解到被拒收并拒绝退款后，打来电话辱骂，并诅咒我全家被车撞死。货正常返回给买家，但事情并没有结束。
+                </p>
+                <div class="article-image">
+                    <img src="sucai/study.jpg" alt="学习配图">
+                </div>
+                <p class="article-content">
+                    6月8日，买家又再次下单两套同样的商品，她的恶意我是很清楚的，向平台反应这是个恶意订单，要求取消订单，并没有得到平台的同意，发货还会再出意外，不发货会被罚款，也不能不发；货物在途，买家申请退款，我被迫将货物追回来，白白搭了运费12块；买家不服气，为了达到自己的目的无所不用其极，持续在黑猫平台和深圳315消保委投诉，并在飞鸽客服端开始辱骂我是狗，诅咒我全家死光，她是希望通过黑猫投诉给平台施压希望支持她的要求，同时要求深圳315消保委给我压力，让给她退货，315消保委的处理毋庸置疑是公平公正的，我有理有据的情况下，并没有给我压力；在她的压力下，平台多次发工单要求我处理，并打来电话PUA我，教育我说我们卖家是服务行业，要我跟买家友好沟通；
+                </p>
+                <div class="article-image">
+                    <img src="sucai/315_001.jpg" alt="学习配图">
+                </div>
+                <p class="article-content">
+                    买家持续多日在飞鸽端侮辱诅咒我，我向平台举报了这个现象，然而平台并不让我拉黑这个买家，就逼着我接受买家的侮辱和咒骂，我作为一个上有父母下有子女的中年人，没忍受住她这样对我全家的诅咒，回了买家几句，平台勃然大怒，给我下了500元的罚单；抖店就是这样子纵容它的买家任意侮辱咒骂平台商家的！
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚区域 -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>关于我</h4>
+                    <p>一个热爱生活与技术的前端开发者</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快捷链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#articles">文章</a></li>
+                        <li><a href="#about">关于</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p>QQ: 89580036</p>
+                    <p>Email: 89580036@qq.com</p>
+                    <p>GitHub: github.com/sir-maker</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MyBlog. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
